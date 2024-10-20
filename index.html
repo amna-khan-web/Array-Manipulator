@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array Manipulator</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div class="box">
+    <h1 style="color: rgb(42, 1, 48); margin-bottom: 30px;">Array Manipulator</h1>
+
+    <!-- empty div to display function -->
+    <div id="array-display"></div>
+
+    <!-- input section by putting values -->
+    <div id="input-section">
+      <input id="input" placeholder="Enter an element" type="text">
+      <button id="add_element" onclick="addElement()">Add to Array</button>
+    </div>
+
+    <!-- button section -->
+     
+    <div id="button-section">
+      <button id="push" onclick="push()">Push</button>
+      <button id="pop" onclick="pop()">Pop</button>
+      <button id="shift" onclick="shift()">Shift</button>
+      <button id="unshift" onclick="unshift()">Unshift</button>
+      <button id="slice" onclick="slice()">Slice</button>
+      <button id="splice" onclick="splice()">Splice</button>
+    </div>
+    <p id="sign-show"></p>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
